@@ -1,0 +1,28 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+  categories:
+    - title: Major changes 🔨
+      labels:
+        - major
+    - title: Dataset changes 💾
+      labels:
+        - dataset
+    - title: Model changes 🤖
+      labels:
+        - model
+    - title: Interesting analyses 🔍
+      labels:
+        - analysis
+    - title: Documentation Only 📄
+      labels:
+        - documentation
+    - title: Bug fixes 🔧
+      labels:
+        - bug
+    - title: Other Changes 🦦
+      labels:
+        - "*"

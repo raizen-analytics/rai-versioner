@@ -3,7 +3,7 @@ name: Execute Python Script
 on:
   push:
     branches:
-      - main
+      - mainfs
 
 jobs:
   build:
